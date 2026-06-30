@@ -17,10 +17,10 @@ app.add_middleware(
 VK_API = "https://api.vk.com/method"
 V = "5.131"
 
-# Kate Mobile — unofficially used by many Russian music apps for audio access
-CID = "2685278"
-CSEC = "VeWdmVclDCtn6ihuP1nt"
-UA = "VKAndroidApp/5.52-4543 (Android 5.1.1; SDK 22; x86_64; unknown Android SDK built for x86_64; en; 320x240)"
+# VK Android official app credentials
+CID = "2274003"
+CSEC = "hHbZxrka2uZ6jB1inYsH"
+UA = "VKAndroidApp/7.43-15063 (Android 11; SDK 30; arm64-v8a; samsung SM-G998B; ru; 1440x3200)"
 
 class AuthData(BaseModel):
     login: str
